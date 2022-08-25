@@ -11,31 +11,65 @@ body {
 .product-upside-whitespace, .author {
     flex-grow: 1;
     height: 150px;
+    flex-shrink: 0;
 }
 .product-container {
+    width: 900px;
     display: flex;
     flex-direction: row;
     border-radius: 1% / 1%;
     overflow: hidden;
     background-color: white;
 
-    flex-basis: 1440px;
     flex-shrink: 0;
     flex-grow: 0;
 }
 .product-image {
-    background-size: contain;
-    flex-basis: 600px;
-    flex-grow: 0;
-    flex-shrink: 0;
+    flex-shrink: 1;
+    flex-grow: 1;
+    width: 450px;
 }
 .product-info-container {
     display: flex;
     flex-direction: column;
-    flex-basis: 600px;
-    flex-grow: 0;
-    flex-shrink: 0;
+    
+    flex-basis: 450px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.product-type {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 500;
+}
+
+.product-info-container footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cart-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 7% / 5%;
+    text-align: center;
+
+    flex-grow: 1;
+}
+.cart-button:hover {
+    cursor: pointer;
 }
 .author {
     text-align: center;
+}
+
+
+@font-face {
+    font-family: 'Montserrat' sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+    
 }
