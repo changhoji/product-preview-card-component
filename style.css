@@ -147,7 +147,7 @@ body {
     .product-image {
         flex-shrink: 1;
         flex-grow: 1;
-        height: 260px;   
+        height: 314px;   
     }
     .product-image>img {
         overflow: hidden;
