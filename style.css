@@ -17,6 +17,7 @@ body {
 }
 .product-container {
     width: 900px;
+    height: 670px;
     display: flex;
     flex-direction: row;
     border-radius: 10px;
@@ -30,7 +31,6 @@ body {
     flex-shrink: 1;
     flex-grow: 1;
     width: 450px;
-    max-width: 100%;
 }
 .product-image>img {
     display: block;
