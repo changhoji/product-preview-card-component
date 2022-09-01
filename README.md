@@ -44,13 +44,7 @@ Users should be able to:
 - HTML
 - CSS
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
 
 ```html
 <picture class="product-image">
@@ -59,12 +53,9 @@ To see how you can add code snippets, see below:
   <img src="url">
 </picture>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+picture tag in HTML works like if statement in C/Python/Java, ...
 
+From the top, It'll check one by one and bring up images that satisfy conditon. If no source tags satisfy conditon, img tag which places in the last line will be excuted.
 
 ### Continued development
 
